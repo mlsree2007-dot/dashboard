@@ -4,7 +4,7 @@ import requests
 st.title("📚 Smart Book Locator Dashboard")
 
 # Replace with your actual Render API URL
-api_url = "https://smart-5.onrender.com"
+api_url =  "https://smart-5.onrender.com/search"
 
 # Search bar
 book_id = st.text_input("🔍 Enter Book ID to locate")
