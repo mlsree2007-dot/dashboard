@@ -3,7 +3,7 @@ import requests
 
 st.title("📚 Smart Book Locator Dashboard")
 
-api_url = "https://smart-book-api.onrender.com/simulate"  # Use your actual Render URL
+api_url = "https://smart-31fj.onrender.com"  # Use your actual Render URL
 
 if st.button("Scan Book"):
     response = requests.get(api_url)
